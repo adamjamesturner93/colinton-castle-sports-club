@@ -62,4 +62,6 @@ export default function PasswordReset() {
   );
 }
 
-PasswordReset.layout = Auth;
+PasswordReset.options = {
+  layout: Auth,
+};

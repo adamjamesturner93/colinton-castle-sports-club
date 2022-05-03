@@ -137,4 +137,6 @@ export const getStaticProps: GetStaticProps<Props> = ({
   };
 };
 
-News.layout = Public;
+News.options = {
+  layout: Public,
+};

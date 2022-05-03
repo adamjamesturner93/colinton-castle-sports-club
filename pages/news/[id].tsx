@@ -94,4 +94,6 @@ export default function NewsPost() {
   );
 }
 
-NewsPost.layout = Public;
+NewsPost.options = {
+  layout: Public,
+};

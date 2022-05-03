@@ -123,4 +123,6 @@ export default function Register() {
   );
 }
 
-Register.layout = Auth;
+Register.options = {
+  layout: Auth,
+};

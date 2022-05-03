@@ -24,4 +24,6 @@ export default function Settings() {
   );
 }
 
-Settings.layout = Admin;
+Settings.options = {
+  layout: Admin,
+};

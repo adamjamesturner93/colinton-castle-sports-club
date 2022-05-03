@@ -34,4 +34,6 @@ export default function Dashboard() {
   );
 }
 
-Dashboard.layout = Admin;
+Dashboard.options = {
+  layout: Admin,
+};

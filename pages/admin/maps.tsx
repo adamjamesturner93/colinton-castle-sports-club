@@ -22,4 +22,6 @@ export default function Maps() {
   );
 }
 
-Maps.layout = Admin;
+Maps.options = {
+  layout: Admin,
+};

@@ -48,7 +48,7 @@ export default function Pricing() {
         </div>
       </div>
       <section className="relative py-32 -mt-16">
-      <p className="w-5/12 mx-auto text-sm">
+        <p className="w-5/12 mx-auto text-sm">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
           sapiente voluptatum officia repellat porro consequuntur nostrum, iure
           in expedita delectus assumenda, molestiae adipisci veniam repudiandae
@@ -284,4 +284,6 @@ export default function Pricing() {
   );
 }
 
-Pricing.layout = Public;
+Pricing.options = {
+  layout: Public,
+};

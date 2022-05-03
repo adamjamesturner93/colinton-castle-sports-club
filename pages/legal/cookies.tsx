@@ -284,4 +284,6 @@ export default function Pricing() {
   );
 }
 
-Pricing.layout = Public;
+Pricing.options = {
+  layout: Public,
+};

@@ -108,4 +108,6 @@ export default function Login() {
   );
 }
 
-Login.layout = Auth;
+Login.options = {
+  layout: Auth,
+};
