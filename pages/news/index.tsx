@@ -83,7 +83,14 @@ export default function News(props: Props) {
                       <i className="fa fa-user mr-1"></i>
                       Author
                     </span>
-                    <span>Event, News</span>
+                    <div className="text-xs font-semibold flex gap-2 items-center">
+                      <span className=" inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white last:mr-0 mr-2 mt-2">
+                        Event
+                      </span>
+                      <span className=" inline-block py-1 px-2 rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                        News
+                      </span>
+                    </div>
                   </div>
                   <p>{post.excerpt}</p>
                   <Link href={`/news${post.url}`}>

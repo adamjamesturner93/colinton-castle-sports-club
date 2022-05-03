@@ -56,6 +56,7 @@ export default function Navbar(props) {
                   className="lg:text-white lg:hover:text-slate-200 text-slate-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   target="_blank"
                   rel="noreferrer"
+                  href="https://www.facebook.com/ColintonCastleSportsClub"
                 >
                   <i className="lg:text-slate-200 text-slate-400 fab fa-facebook text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Share</span>
@@ -67,6 +68,7 @@ export default function Navbar(props) {
                   className="lg:text-white lg:hover:text-slate-200 text-slate-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   target="_blank"
                   rel="noreferrer"
+                  href="https://twitter.com/colintoncastle"
                 >
                   <i className="lg:text-slate-200 text-slate-400 fab fa-twitter text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Tweet</span>
