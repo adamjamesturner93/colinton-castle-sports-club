@@ -24,7 +24,7 @@ export default function Sidebar() {
           <Link href="/">
             <a
               href="#pablo"
-              className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
+              className="md:block text-left md:pb-2 text-slate-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
             >
               Notus NextJS
             </a>
@@ -46,13 +46,13 @@ export default function Sidebar() {
             }
           >
             {/* Collapse header */}
-            <div className="md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-blueGray-200">
+            <div className="md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-slate-200">
               <div className="flex flex-wrap">
                 <div className="w-6/12">
                   <Link href="/">
                     <a
                       href="#pablo"
-                      className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
+                      className="md:block text-left md:pb-2 text-slate-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
                     >
                       Notus NextJS
                     </a>
@@ -75,7 +75,7 @@ export default function Sidebar() {
                 <input
                   type="text"
                   placeholder="Search"
-                  className="border-0 px-3 py-2 h-12 border border-solid  border-blueGray-500 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-base leading-snug shadow-none outline-none focus:outline-none w-full font-normal"
+                  className="border-0 px-3 py-2 h-12 border border-solid  border-slate-500 placeholder-slate-300 text-slate-600 bg-white rounded text-base leading-snug shadow-none outline-none focus:outline-none w-full font-normal"
                 />
               </div>
             </form>
@@ -83,7 +83,7 @@ export default function Sidebar() {
             {/* Divider */}
             <hr className="my-4 md:min-w-full" />
             {/* Heading */}
-            <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
+            <h6 className="md:min-w-full text-slate-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
               Admin Layout Pages
             </h6>
             {/* Navigation */}
@@ -96,8 +96,8 @@ export default function Sidebar() {
                     className={
                       "text-xs uppercase py-3 font-bold block " +
                       (router.pathname.indexOf("/admin/dashboard") !== -1
-                        ? "text-lightBlue-500 hover:text-lightBlue-600"
-                        : "text-blueGray-700 hover:text-blueGray-500")
+                        ? "text-sky-500 hover:text-sky-600"
+                        : "text-slate-700 hover:text-slate-500")
                     }
                   >
                     <i
@@ -105,7 +105,7 @@ export default function Sidebar() {
                         "fas fa-tv mr-2 text-sm " +
                         (router.pathname.indexOf("/admin/dashboard") !== -1
                           ? "opacity-75"
-                          : "text-blueGray-300")
+                          : "text-slate-300")
                       }
                     ></i>{" "}
                     Dashboard
@@ -120,8 +120,8 @@ export default function Sidebar() {
                     className={
                       "text-xs uppercase py-3 font-bold block " +
                       (router.pathname.indexOf("/admin/settings") !== -1
-                        ? "text-lightBlue-500 hover:text-lightBlue-600"
-                        : "text-blueGray-700 hover:text-blueGray-500")
+                        ? "text-sky-500 hover:text-sky-600"
+                        : "text-slate-700 hover:text-slate-500")
                     }
                   >
                     <i
@@ -129,7 +129,7 @@ export default function Sidebar() {
                         "fas fa-tools mr-2 text-sm " +
                         (router.pathname.indexOf("/admin/settings") !== -1
                           ? "opacity-75"
-                          : "text-blueGray-300")
+                          : "text-slate-300")
                       }
                     ></i>{" "}
                     Settings
@@ -144,8 +144,8 @@ export default function Sidebar() {
                     className={
                       "text-xs uppercase py-3 font-bold block " +
                       (router.pathname.indexOf("/admin/tables") !== -1
-                        ? "text-lightBlue-500 hover:text-lightBlue-600"
-                        : "text-blueGray-700 hover:text-blueGray-500")
+                        ? "text-sky-500 hover:text-sky-600"
+                        : "text-slate-700 hover:text-slate-500")
                     }
                   >
                     <i
@@ -153,7 +153,7 @@ export default function Sidebar() {
                         "fas fa-table mr-2 text-sm " +
                         (router.pathname.indexOf("/admin/tables") !== -1
                           ? "opacity-75"
-                          : "text-blueGray-300")
+                          : "text-slate-300")
                       }
                     ></i>{" "}
                     Tables
@@ -168,8 +168,8 @@ export default function Sidebar() {
                     className={
                       "text-xs uppercase py-3 font-bold block " +
                       (router.pathname.indexOf("/admin/maps") !== -1
-                        ? "text-lightBlue-500 hover:text-lightBlue-600"
-                        : "text-blueGray-700 hover:text-blueGray-500")
+                        ? "text-sky-500 hover:text-sky-600"
+                        : "text-slate-700 hover:text-slate-500")
                     }
                   >
                     <i
@@ -177,7 +177,7 @@ export default function Sidebar() {
                         "fas fa-map-marked mr-2 text-sm " +
                         (router.pathname.indexOf("/admin/maps") !== -1
                           ? "opacity-75"
-                          : "text-blueGray-300")
+                          : "text-slate-300")
                       }
                     ></i>{" "}
                     Maps
@@ -189,7 +189,7 @@ export default function Sidebar() {
             {/* Divider */}
             <hr className="my-4 md:min-w-full" />
             {/* Heading */}
-            <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
+            <h6 className="md:min-w-full text-slate-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
               Auth Layout Pages
             </h6>
             {/* Navigation */}
@@ -199,9 +199,9 @@ export default function Sidebar() {
                 <Link href="/auth/login">
                   <a
                     href="#pablo"
-                    className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
+                    className="text-slate-700 hover:text-slate-500 text-xs uppercase py-3 font-bold block"
                   >
-                    <i className="fas fa-fingerprint text-blueGray-400 mr-2 text-sm"></i>{" "}
+                    <i className="fas fa-fingerprint text-slate-400 mr-2 text-sm"></i>{" "}
                     Login
                   </a>
                 </Link>
@@ -211,9 +211,9 @@ export default function Sidebar() {
                 <Link href="/auth/register">
                   <a
                     href="#pablo"
-                    className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
+                    className="text-slate-700 hover:text-slate-500 text-xs uppercase py-3 font-bold block"
                   >
-                    <i className="fas fa-clipboard-list text-blueGray-300 mr-2 text-sm"></i>{" "}
+                    <i className="fas fa-clipboard-list text-slate-300 mr-2 text-sm"></i>{" "}
                     Register
                   </a>
                 </Link>
@@ -223,7 +223,7 @@ export default function Sidebar() {
             {/* Divider */}
             <hr className="my-4 md:min-w-full" />
             {/* Heading */}
-            <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
+            <h6 className="md:min-w-full text-slate-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
               No Layout Pages
             </h6>
             {/* Navigation */}
@@ -233,9 +233,9 @@ export default function Sidebar() {
                 <Link href="/landing">
                   <a
                     href="#pablo"
-                    className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
+                    className="text-slate-700 hover:text-slate-500 text-xs uppercase py-3 font-bold block"
                   >
-                    <i className="fas fa-newspaper text-blueGray-400 mr-2 text-sm"></i>{" "}
+                    <i className="fas fa-newspaper text-slate-400 mr-2 text-sm"></i>{" "}
                     Landing Page
                   </a>
                 </Link>
@@ -245,9 +245,9 @@ export default function Sidebar() {
                 <Link href="/profile">
                   <a
                     href="#pablo"
-                    className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
+                    className="text-slate-700 hover:text-slate-500 text-xs uppercase py-3 font-bold block"
                   >
-                    <i className="fas fa-user-circle text-blueGray-400 mr-2 text-sm"></i>{" "}
+                    <i className="fas fa-user-circle text-slate-400 mr-2 text-sm"></i>{" "}
                     Profile Page
                   </a>
                 </Link>

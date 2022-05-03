@@ -3,7 +3,7 @@ import App from "next/app";
 import Head from "next/head";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import "styles/tailwind.css";
+import "../styles/index.css";
 
 export default class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
@@ -20,6 +20,8 @@ export default class MyApp extends App {
     const { Component, pageProps } = this.props;
 
     const Layout = Component.layout || (({ children }) => <>{children}</>);
+
+    console.log(Layout);
 
     return (
       <React.Fragment>
