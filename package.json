@@ -23,6 +23,7 @@
   },
   "scripts": {
     "start": "next start",
+    "postinstall": "cd sanity && yarn",
     "build": "next build",
     "build:sanity": "echo 'Building Sanity to public/studio' && cd sanity && yarn build && cd .. ",
     "build:tailwind": "tailwindcss -i styles/index.css -o styles/tailwind.css",
