@@ -23,12 +23,12 @@
   },
   "scripts": {
     "start": "next start",
-    "prebuild": "echo 'Building Sanity to public/studio' && cd sanity && sanity build ../public/studio -y && cd .. ",
     "build": "next build",
+    "build:sanity": "echo 'Building Sanity to public/studio' && cd sanity && yarn build && cd .. ",
+    "build:tailwind": "tailwindcss -i styles/index.css -o styles/tailwind.css",
     "dev": "next dev",
     "lint": "next lint",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm run dev",
-    "build:tailwind": "tailwindcss -i styles/index.css -o styles/tailwind.css"
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm run dev"
   },
   "browserslist": {
     "production": [
