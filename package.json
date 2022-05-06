@@ -8,11 +8,14 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "6.1.1",
     "@popperjs/core": "2.9.1",
+    "@sanity/client": "^3.3.0",
+    "@sanity/image-url": "^1.0.1",
     "@tailwindcss/forms": "0.5.0",
     "chart.js": "2.9.4",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
     "next": "12.1.5",
+    "next-sanity": "^0.5.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-scripts": "5.0.1",
@@ -20,6 +23,7 @@
   },
   "scripts": {
     "start": "next start",
+    "prebuild": "echo 'Building Sanity to public/studio' && cd sanity && sanity build ../public/studio -y && cd .. ",
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
@@ -39,12 +43,15 @@
     ]
   },
   "devDependencies": {
+    "@sanity/cli": "^2.29.8",
     "@types/next": "^9.0.0",
     "@types/node": "^17.0.30",
     "@types/react": "^18.0.8",
     "autoprefixer": "10.2.5",
     "eslint-config-next": "12.1.6",
     "postcss": "8.4.13",
+    "prettier": "^2.6.2",
+    "sanity-codegen": "^0.9.8",
     "typescript": "^4.6.4"
   }
 }
